@@ -12,7 +12,7 @@ micromamba activate
 micromamba install python=3.10 -c conda-forge -y
 
 # install the dependencies
-python -m pip install -r requirements-deploy.txt
+python -m pip install -r requirements.txt
 
 # build the JupyterLite site
 jupyter lite --version
