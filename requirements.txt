@@ -30,7 +30,7 @@ jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
 #jupyterlab_miami_nights
 # JupyterLab: Access local files (optional)
-jupyterlab-filesystem-access=0.6.0
+jupyterlab-filesystem-access==0.6.0
 
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.1.1,<9
