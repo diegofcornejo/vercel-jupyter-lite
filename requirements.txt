@@ -48,3 +48,6 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+
+# Apache Echarts Jupyter Widget
+ipecharts==1.0.8
