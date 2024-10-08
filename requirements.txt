@@ -42,7 +42,7 @@ ipywidgets>=8.1.5,<9
 # Python: ipyevents library for Jupyter notebooks (optional)
 ipyevents>=2.0.2
 # Python: interative Matplotlib library for Jupyter notebooks (optional)
-ipympl>=0.9.4
+ipympl>=0.9.3
 # Python: ipycanvas library for Jupyter notebooks (optional)
 ipycanvas>=0.13.3
 # Python: ipyleaflet library for Jupyter notebooks (optional)

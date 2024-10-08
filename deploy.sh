@@ -4,7 +4,7 @@
 yum install wget -y
 
 # Download and extract Micromamba
-wget -qO- https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+wget -qO- https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
 
 # Export environment variables directly instead of using .bashrc
 export PATH="$PWD/bin:$PATH"
