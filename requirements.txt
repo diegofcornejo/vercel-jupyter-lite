@@ -1,13 +1,13 @@
 # Core modules (mandatory)
-jupyterlite-core==0.4.4
-jupyterlab~=4.2.6
-notebook~=7.2.2
+jupyterlite-core==0.5.0
+jupyterlab~=4.3.4
+notebook~=7.3.2
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.4.4
+jupyterlite-pyodide-kernel==0.5.0
 
 # Python Xeus kernel (optional)
-jupyterlite-xeus==2.0.0
+jupyterlite-xeus==3.0.3
 
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.3.0
@@ -42,7 +42,7 @@ ipywidgets>=8.1.5,<9
 # Python: ipyevents library for Jupyter notebooks (optional)
 ipyevents>=2.0.2
 # Python: interative Matplotlib library for Jupyter notebooks (optional)
-ipympl>=0.9.3
+ipympl>=0.9.6
 # Python: ipycanvas library for Jupyter notebooks (optional)
 ipycanvas>=0.13.3
 # Python: ipyleaflet library for Jupyter notebooks (optional)
