@@ -17,7 +17,7 @@ export MAMBA_ROOT_PREFIX="$PWD/micromamba"
 eval "$(./bin/micromamba shell hook -s bash)"
 
 # Activate the Micromamba environment
-micromamba create -n jupyterenv python=3.11 -c conda-forge -y
+micromamba create -n jupyterenv python=3.12 -c conda-forge -y
 micromamba activate jupyterenv
 
 # Install the dependencies from requirements.txt
