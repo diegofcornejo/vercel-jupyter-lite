@@ -1,8 +1,12 @@
-name: xeus-lite-wasm
+name: xeus-lite
 channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
+  - https://repo.prefix.dev/emscripten-forge-dev
+  - https://repo.prefix.dev/conda-forge
 dependencies:
   - xeus-python
   - numpy
   - ipecharts
+  - xeus-r >= 0.7.0
+  - r-ggplot2
