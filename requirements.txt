@@ -12,6 +12,9 @@ jupyterlite-xeus>=4.0.1
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.3.0
 
+# JupyterLite AI
+jupyterlite-ai==0.7.0
+
 # Language support (optional)
 jupyterlab-language-pack-es-ES
 jupyterlab-language-pack-fr-FR
