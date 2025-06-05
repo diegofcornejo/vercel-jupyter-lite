@@ -1,8 +1,14 @@
 #!/bin/bash
 set -e
 
+# vercel: Amazon Linux 2023
+# netlify: Ubuntu 24.04
+
 # Install wget
-yum install wget -y
+# yum is not available on netlify, but it´s not a problem because wget is already installed, this validation is just to avoid errors on build step.
+if command -v yum &> /dev/null; then
+    yum install wget -y
+fi
 
 # Download and extract Micromamba
 wget -qO- https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
